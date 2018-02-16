@@ -11,4 +11,4 @@ Neste repositório contem:
 
 > Dúvidas e afins estou a disposição: ellenmota29@gmail.com
 
-Bons Estudos! :brilha
+Bons Estudos! 
