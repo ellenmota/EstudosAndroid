@@ -1,0 +1,143 @@
+
+# Criado por https://www.gitignore.io/api/osx,swift,objective-c,xcode
+
+### Objective-C ###
+# Xcode
+#
+# contribuintes gitignore: lembre-se de atualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+construir/
+DerivedData /
+
+## Várias configurações
+* .pbxuser
+! default.pbxuser
+* .mode1v3
+! default.mode1v3
+* .mode2v3
+! default.mode2v3
+* .perspectivev3
+! default.perspectivev3
+xcuserdata /
+
+## De outros
+* .moved-aside
+* .xccheckout
+* .xcscmblueprint
+
+## Obj-C / Swift específico
+* .hmap
+* .ipa
+* .dSYM.zip
+* .dSYM
+
+# CocoaPods - Refatorado para arquivo autônomo
+
+
+# Cartago - Refatorado ao arquivo autônomo
+
+# fastlane
+#
+# É recomendável não armazenar as capturas de tela no retomado git. Em vez disso, use fastlane para re-gerar o
+# screenshots sempre que forem necessários.
+# Para obter mais informações sobre a visita de configuração recomendada:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane / report.xml
+fastlane / Preview.html
+fastlane / screenshots
+fastlane / test_output
+
+# Injeção de código
+#
+# Depois do novo código, as ferramentas de injeção existem uma pasta gerada / iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject /
+
+### Objective-C Patch ###
+
+### OSX ###
+* .DS_Store
+.AppleDouble
+.LVERVER
+
+# O ícone deve terminar com dois
+Ícone
+
+# Miniaturas
+. *
+
+# Arquivos que podem aparecer na raiz de um volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Diretórios potencialmente criados em compartilhamento remoto da AFP
+.AppleDB
+.AppleDesktop
+Pasta da lixeira da rede
+Artigos temporários
+.apdisk
+
+### Rápido ###
+# Xcode
+#
+# contribuintes gitignore: lembre-se de atualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+
+## Várias configurações
+
+## De outros
+
+## Obj-C / Swift específico
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Adicione esta linha se desejar evitar verificar o código-fonte das dependências do Swift Package Manager.
+# Pacotes /
+# Pacote.pins
+.construir/
+
+# CocoaPods - Refatorado para arquivo autônomo
+
+# Cartago - Refatorado ao arquivo autônomo
+
+# fastlane
+#
+# É recomendável não armazenar as capturas de tela no retomado git. Em vez disso, use fastlane para re-gerar o
+# screenshots sempre que forem necessários.
+# Para obter mais informações sobre a visita de configuração recomendada:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+
+### Xcode ###
+# Xcode
+#
+# contribuintes gitignore: lembre-se de atualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+
+## Várias configurações
+
+## De outros
+
+### Xcode Patch ###
+* .xcodeproj / *
+! *. xcodeproj / project.pbxproj
+! *. xcodeproj / xcshareddata /
+! *. xcworkspace / contents.xcworkspacedata
+/*.gcno
+
+
+# Fim de https://www.giggnore.io/api/osx,swift,objective-c,xcode
