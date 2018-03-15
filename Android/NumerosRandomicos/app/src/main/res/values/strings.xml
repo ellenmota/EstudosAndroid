@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NumeroAleatorios</string>
+    <string name="titulo">Escolha um número de 0 a 10.</string>
+    <string name="botao">Jogar!</string>
+</resources>
