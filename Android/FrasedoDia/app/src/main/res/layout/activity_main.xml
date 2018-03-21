@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="frasedodia.ellenmota.com.frasedodia.MainActivity">
+
+    <Button
+        android:id="@+id/btnGerarFrase"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginTop="31dp"
+        android:text="Nova frase"
+        app:layout_constraintBottom_toTopOf="@+id/txtFrase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFrase"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="122dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="34dp"
+        android:text="Nenhuma frase..."
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGerarFrase" />
+
+</android.support.constraint.ConstraintLayout>
