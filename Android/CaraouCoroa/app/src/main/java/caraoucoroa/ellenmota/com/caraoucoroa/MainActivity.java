@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+       //link do componente com a variavel
         imgJogar = findViewById(R.id.imgJogar);
 
 
@@ -26,16 +27,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //Resultado randomico de cara ou coroa
                 Random random = new Random();
-                String resultadoMoeda;
-                resultadoMoeda = moeda[random.nextInt(moeda.length)];
+                String resultadoMoeda = moeda[random.nextInt(moeda.length)].toString();
 
+                //Interações entre activitys, no caso estou passando dados para outra activity
                 Intent intent = new Intent(MainActivity.this, ResultadoActivity.class);
                 intent.putExtra("resultadoMoeda", resultadoMoeda);
 
-                startActivity(new Intent(MainActivity.this, ResultadoActivity.class));
+                //Inicia outra activity
+                startActivity(intent);
             }
         });
 
     }
+
+
 }
